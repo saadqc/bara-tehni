@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Bara_Tehni.ColorFullEllipse"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Grid>
+        <Ellipse PreviewMouseLeftButtonDown="EllipseTool_OnPreviewMouseLeftButtonDown" RenderTransformOrigin="0.5,0.5" x:Name="EllipseTool" Margin="3">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF31F31E" Offset="0"/>
+                    <GradientStop Color="#FF8EBB74" Offset="1"/>
+                    <GradientStop Color="#FFE49016" Offset="0.23"/>
+                    <GradientStop Color="#FF1E30E4" Offset="0.583"/>
+                    <GradientStop Color="#FFD321AA" Offset="0.817"/>
+                    <GradientStop Color="#FFDC1D1D" Offset="0.426"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</UserControl>
