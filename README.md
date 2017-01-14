@@ -8,3 +8,7 @@ Features:
 #### How to run:
 
 Pull, build and run code using visual studio.
+
+Screen shots:
+
+![](https://www.dropbox.com/s/8pyqhapjn7gtg6m/img1.png?dl=1)
